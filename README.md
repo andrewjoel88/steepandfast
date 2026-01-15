@@ -11,7 +11,7 @@ after adding files:
 
 after important changes
 
-`git commit -am'useful commit message``
+`git commit -am'useful commit message'`
 
 to upload to github
 
