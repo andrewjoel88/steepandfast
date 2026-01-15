@@ -4,10 +4,6 @@ function setup() {
 
 function draw() {
   background(255, 0, 0);
-  line(0, height/2, width, 0)
-  ellipse(width/2, height/2, 100, 100)
-  myTriangle(.05, width/3.56, height/4.26);
-  console.log("mouseX: "+mouseX, "mouseY: "+mouseY);
   beginShape();
   vertex(28, 100);
   quadraticVertex(243, 372, 156, 139);
