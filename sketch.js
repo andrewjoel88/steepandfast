@@ -8,6 +8,11 @@ function draw() {
   ellipse(width/2, height/2, 100, 100)
   myTriangle(.05, width/3.56, height/4.26);
   console.log("mouseX: "+mouseX, "mouseY: "+mouseY);
+  beginShape();
+  vertex(28, 100);
+  quadraticVertex(243, 372, 156, 139);
+  bezierVertex(302, 383, 137, 175, 213, 340);
+endShape(CLOSE)
 }
 
 function windowResized(){
@@ -22,5 +27,6 @@ function myTriangle(amountOfWindow, x, y){
   triangle(0, 0, size, size*2 -size, size*2);
   pop();
 }
+
 
 
