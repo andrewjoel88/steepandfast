@@ -12,13 +12,14 @@ function draw() {
 beginShape();
 fill(0, 255, 0);
   vertex(15, 17);
-  bezierVertex(333, 331, 142, 138, 190, 301);
+  bezierVertex(511, 362, 142, 138, 208, 322);
 
 endShape(CLOSE)
 
 beginShape();
   fill(255, 0, 0);
-    vertex(15, 17);
+  noStroke();
+  vertex(15, 17);
   quadraticVertex(238, 317, 153, 108);
 endShape(CLOSE)
 
