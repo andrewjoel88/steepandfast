@@ -10,12 +10,15 @@ function draw() {
   background(255, 0, 0);
 
 beginShape();
+fill(0, 255, 0);
   vertex(15, 17);
   bezierVertex(333, 331, 142, 138, 190, 301);
+
 endShape(CLOSE)
 
 beginShape();
-  vertex(15, 17);
+  fill(255, 0, 0);
+    vertex(15, 17);
   quadraticVertex(238, 317, 153, 108);
 endShape(CLOSE)
 
