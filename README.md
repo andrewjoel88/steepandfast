@@ -5,6 +5,14 @@ navigate to project
 
 `cd path/to/project`
 
+if you are working on other computers - do this first!
+
+`git pull`
+
+or if it's the firtst time working on a new machine:
+
+`git clone <paste link from github here>`
+
 after adding files: 
 
 `git add .`
@@ -16,3 +24,7 @@ after important changes
 to upload to github
 
 `git push origin main` 
+
+or just :
+
+`git push`
