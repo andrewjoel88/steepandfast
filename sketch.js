@@ -2,9 +2,7 @@ function setup() {
   createCanvas(435,420);
 }
 
-//function windowResized(){
-  //resizeCanvas(windowWidth, windowHeight);
-//
+
 
 function draw() {
   background(132, 177, 186);
@@ -33,7 +31,7 @@ console.log("mouseX: "+ mouseX+" mouseY: "+ mouseY)
 
 }
 
-
+//trying to get this to work
 
 
 
